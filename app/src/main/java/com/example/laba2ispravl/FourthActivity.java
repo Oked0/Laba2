@@ -14,7 +14,7 @@ public class FourthActivity extends AppCompatActivity {
         Button customButton = findViewById(R.id.custom_button);
         GradientDrawable border = new GradientDrawable();
         border.setCornerRadius(24);
-        border.setStroke(12, 0xFF505050);
+        border.setStroke(1, 0xFF505050);
         border.setColor(0xFFFFFFFF);
         customButton.setBackground(border);
 
